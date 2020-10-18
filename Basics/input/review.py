@@ -1,0 +1,13 @@
+# ask to the iser for a character
+print("Please introduce a characters")
+character = input()
+mouth = input()
+eyes = input()
+print()
+print("", character, character, character, character, character, character)
+print("", character,                                             character)
+print("", character,     eyes,                      eyes,        character)
+print("", character,                                             character)
+print("", character,                                             character)
+print("", character,           mouth, mouth, mouth,              character)
+print("", character, character, character, character, character, character)
