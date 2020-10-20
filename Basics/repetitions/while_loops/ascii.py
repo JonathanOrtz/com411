@@ -4,4 +4,4 @@ barschanged=0
 while(barschanged<barstocharge):
   barschanged=barschanged+1
   print("\nCharging:"," █ "*barschanged)
-print("The battery is full charged")
+print("\nThe battery is full charged")
