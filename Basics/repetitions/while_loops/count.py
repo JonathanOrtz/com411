@@ -1,7 +1,9 @@
 print("How many live cables must I avoid?")
 cabletoavoid=int(input())
-cableavoided=0
-while(cableavoided<cabletoavoid):
-  cableavoided=cableavoided+1
-  print("Avoiding...Done! {} live cable avoided".format(cableavoided))
+cableavoid=0
+while(cableavoid<cabletoavoid):
+  cableavoid=cableavoid+1
+  print("Avoiding...Done! {} live cable avoided".format(cableavoid))
 print("All cable has been avoided")
+
+
