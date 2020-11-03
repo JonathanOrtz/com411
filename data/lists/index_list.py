@@ -1,4 +1,5 @@
 def movements():
+<<<<<<< HEAD
   path = ["Move Forward", 10, "Move Backward", 5, "Move Left", 3, "Move Right", 1]
   return path
 
@@ -11,3 +12,5 @@ def run():
   print(f"{path[4]} for {path[5]} steps")
   print(f"{path[6]} for {path[7]} steps")
 run()
+=======
+>>>>>>> 6757780c805d21e7f9017917f03bfddb72c2bcf1
