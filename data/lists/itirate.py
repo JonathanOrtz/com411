@@ -1,17 +1,13 @@
 def directions():
-  directions = ["Move Forward", "Move Backward", "Turn Left", "Turn Right"]
-  return directions
+  directions["Move Forward", "Move Backward", "Turn Left", "Turn Right"]
+  return list
 
 def menu():
- print("Selec a direction")
- dirs = directions()
- # range(start_value, end_value, step=1)
- for index in range(len(dirs)):
-  print(f"{index}: {directions}")
-
-
- selec_direction = int(input())
- return dirs[selec_direction]
+  select_direction=input("Please select a directions: ")
+  return_direction=directions()
+  for index in range(0,1,1):
+    print(f"{index}:{return_directions}")
 
 def run():
   menu()
+run()
