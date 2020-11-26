@@ -30,3 +30,4 @@ def run():
 
   for data in sorted(observation_set):
     print(f"{data[0]} counted {data[1]}")
+run()
