@@ -17,5 +17,5 @@ def run():
     print(f"{key}:{value}")
 # create a new dictionary and each key has the return of each function
 # use for loop, items function with key, value to display the           dictionary
-# the value, key is the "count" and the disctionary which will be iterade is with the items function, which return the key, value. 
+# the value, key is the "count" and the disctionary which will be iterade is with the items function, which return the key, value..
 run()
