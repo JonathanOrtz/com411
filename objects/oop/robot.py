@@ -30,3 +30,4 @@ if (__name__ == "__main__"):
   Robot.the_laws()
   print(robot)
   print(repr(robot))
+
