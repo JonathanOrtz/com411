@@ -2,11 +2,23 @@ class Human:
   #class attribute
   MAX_ENERGY  = 100
   # initializer(special instance method)
-  def __init__(self):
+  def __init__(self, name="Human", age=0):
     # instance attributes
-    self.name = "Human"
-    self.age = 0
+    self.name = name
+    self.age = age
     self.energy = Human.MAX_ENERGY
+
+  def grow(self):
+    self.age+=1
+
+  def eat(amount):
+    energy_plus = self.energy + amount
+    if (energy_plus>Human.MAX_ENERGY):
+      self.energy = Human.MAX_ENERGY
+      return energy_plus - self.energy
+    else:
+     self.energy = energy_plus
+     return 0
   #  An instance method (to display)
   def display(self):
     print(f"I am {self.name}")
